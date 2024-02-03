@@ -1,0 +1,24 @@
+li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+img {
+    height: 160px;
+    width: 140px;
+}
+
+svg {
+    width: 24px;
+    height: 24px;
+}
+
+svg.filled {
+    fill: red;
+}
+
+svg.outlined {
+    fill: none;
+    stroke: red;
+}
